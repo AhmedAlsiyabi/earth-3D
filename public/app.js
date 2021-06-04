@@ -13,11 +13,11 @@ let renderer;
 scene = new THREE.Scene();
 // set up the camera
 
-let feelOfVeiw = 60;
+let fieldOfVeiw = 60;
 let aspect = window.innerWidth / window.innerHeight;
 let near = 0.1;
 let far = 1000;
-camera = new THREE.PerspectiveCamera(feelOfVeiw, aspect, near, far);
+camera = new THREE.PerspectiveCamera(fieldOfVeiw, aspect, near, far);
 camera.position.z = 2;
 scene.add(camera);
 
